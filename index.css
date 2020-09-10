@@ -3,5 +3,17 @@ h1 {
 }
 
 p {
-    font-family: 'Lobster', cursvie;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.red-button {
+    background-color: #FF764E;
+}
+
+.blue-button {
+    background-color: #5ED3EB;
+}
+
+.yellow-button {
+    background-color: #FFCD69;
 }
