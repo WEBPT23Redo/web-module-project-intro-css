@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+/* CSS Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -49,6 +51,7 @@ table {
 	border-spacing: 0;
 }
 
+/* general styles */
 h1 {
     font-family: 'Chelsea Market', cursive;
 }
@@ -65,6 +68,14 @@ body{
     font-size:1.8rem;
     line-height:1.5;
 
+}
+.header-image {
+    border-radius: 50%;
+    height: 15%;
+    width: 15%;
+    margin: 5% 5% 5% 10%;
+    display: inline-block;
+    border: 1px solid black;
 }
 .red-button {
     width: 0.25rem;
