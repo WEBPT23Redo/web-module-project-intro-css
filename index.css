@@ -3,6 +3,7 @@ h1 {
 }
 
 p {
+    background-color: #DDB9A3;
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -16,4 +17,8 @@ p {
 
 .yellow-button {
     background-color: #FFCD69;
+}
+
+footer {
+    background-color: #F9E7DC;
 }
