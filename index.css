@@ -65,6 +65,8 @@ html{
 body{
     font-size:1.8rem;
     line-height:1.5;
+    margin-left: 5%;
+    margin-right: 5%;
 
 }
 .container{
@@ -98,10 +100,8 @@ header .headline {
 }
 .text-box {
     color: white;
-    width: 162px;
-    margin: 0 auto 0px;
-    font-size: .85rem;
-    line-height: .95rem;
+    margin: 40px 0;
+    padding: 20px;
 }
 .second-section {
     color: white;
