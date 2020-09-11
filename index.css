@@ -70,6 +70,7 @@ body{
 .container{
     width: 600px;
     margin: 0 auto;
+    padding: 20px 0px 0px;
   }
 
 header .headline {
@@ -86,10 +87,28 @@ header .headline {
     border-radius: 100%;
 }
 
-nav a {
-    margin: 1.5% 9%;
+.subtext {
+    width: 240px;
+    font-size: 1.1rem;
+}
+.first-section {
+    padding: 5px;
+    width: 95%;
+    background-color: #DDB9A3;
+}
+.text-box {
     color: white;
-    text-align: center;
+    width: 162px;
+    margin: 0 auto 0px;
+    font-size: .85rem;
+    line-height: .95rem;
+}
+.second-section {
+    color: white;
+    padding: 5px;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 nav .red-button {
@@ -126,21 +145,30 @@ nav .yellow-button{
     background: #FFCD69;
     text-align: center;
 }
-.red-button {
-    width: 0.25rem;
-    background-color: #FF764E;
+.fire {
+    display: block;
+    margin: 0px auto 0px;
+    width: 70px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
-
-.blue-button {
-    background-color: #5ED3EB;
-}
-
-.yellow-button {
-    background-color: #FFCD69;
+.truck-image {
+    padding: 10px 10px 10px 10px;
+    display: inline;
+    width: 150px;
+    border-radius: 100%;
 }
 
 footer {
     width: 600px;
     background: #F9E7DC;
     margin: 0px auto;
+}
+
+.footer-image {
+    margin-bottom: 5px;
+    width: 600px;
+    height: 133px;
+    object-fit: center;
+    object-position: 0% -30px;
 }
