@@ -74,7 +74,36 @@ body{
     margin: 0 auto;
     padding: 20px 0px 0px;
   }
-
+.top-nav {
+    text-align: center;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    padding-top: 0.5em;
+    width: 80%;
+    height: auto;
+}
+button {
+    padding: 10px;
+    border-radius: 8px;
+    color:#fff;
+    background-color:#1976d2;
+    font-size:1.1em;
+    border:0;
+    cursor:pointer;
+    margin:1em;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+.bttnr {
+    background-color: #FF754E;
+}
+.bttnb {
+    background-color: #5FD3EC;
+}
+.bttny {
+    background-color: #FFCD6A;
+}
 header .headline {
     display:inline-block;
     text-align: center;
@@ -82,16 +111,38 @@ header .headline {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 .header-image {
-    padding: 10px 10px 10px 10px;
-    display: inline;
-    width: 150px;
-    border-radius: 100%;
+    display: inline-block;
+    border-radius: 50%;
+    max-width: 60px;
+    height: auto;
 }
 
 .subtext {
     width: 240px;
     font-size: 1.1rem;
+}
+
+.opening-text {
+    display: inline-block;
+    border-style: dotted;
+    border-width: 3px;
+    border-color: white;
+    text-align: center;
+    font-size: 2em;
+    color: #000000;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.intro-text {
+    display: inline-block;
+    font-size: 1.8em;
+    font-weight: lighter;
+    text-align: justify;
+    vertical-align: middle;
+    padding-left: 50px;
+    letter-spacing: 2px; 
 }
 .first-section {
     padding: 5px;
@@ -104,46 +155,10 @@ header .headline {
     padding: 20px;
 }
 .second-section {
-    color: white;
     padding: 5px;
     font-size: 1.8rem;
     margin-bottom: 10px;
     margin-top: 10px;
-}
-
-nav .red-button {
-    width: 80px;
-    margin: 10px 43px;
-    padding: 6px 14px;
-    display: inline-block;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    background: #FF764E;
-    text-align: center;
-}
-nav .blue-button {
-    width: 80px;
-    margin: 10px 43px;
-    padding: 6px 14px;
-    display: inline-block;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    background: #5ED3EB;
-    text-align: center;
-}
-
-nav .yellow-button{
-    width: 80px;
-    margin: 10px 43px;
-    padding: 6px 14px;
-    display: inline-block;
-    border-radius: 10px;
-    color: white;
-    text-decoration: none;
-    background: #FFCD69;
-    text-align: center;
 }
 .fire {
     display: block;
@@ -160,9 +175,16 @@ nav .yellow-button{
 }
 
 footer {
-    width: 600px;
-    background: #F9E7DC;
-    margin: 0px auto;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 5%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    width: 80%;
+    height: auto;
+    background-color: #DDB9A3;
+
 }
 
 .footer-image {
